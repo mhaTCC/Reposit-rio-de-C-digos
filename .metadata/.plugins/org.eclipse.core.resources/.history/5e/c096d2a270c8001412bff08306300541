@@ -1,0 +1,15 @@
+package model;
+
+public class Planinauta {
+
+	private String descPlaniswalker;
+
+	public String getDescPlaniswalker() {
+		return descPlaniswalker;
+	}
+
+	public void setDescPlaniswalker(String descPlaniswalker) {
+		this.descPlaniswalker = descPlaniswalker;
+	}
+	
+}

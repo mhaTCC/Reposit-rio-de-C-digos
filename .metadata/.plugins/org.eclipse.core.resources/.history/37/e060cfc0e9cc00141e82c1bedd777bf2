@@ -1,0 +1,28 @@
+package model;
+
+public class Planinauta {
+
+	private String descPlaniswalker;
+	private int custoHab1;
+	private int custoHab2;
+	private int custoHab3;
+
+
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+
+	public String getDescPlaniswalker() {
+		return descPlaniswalker;
+	}
+
+	public void setDescPlaniswalker(String descPlaniswalker) {
+		this.descPlaniswalker = descPlaniswalker;
+	}
+
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Users\Michel\Dropbox\pessoal\SD3\Repositório de Códigos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1321140246.index
+578813469.index
+2483394191.index
+2879355254.index
+703775579.index

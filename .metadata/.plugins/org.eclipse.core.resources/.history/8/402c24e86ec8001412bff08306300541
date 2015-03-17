@@ -1,0 +1,12 @@
+package model;
+
+public class Cor {
+	
+	private char mana;
+	
+	
+	public char getMana(){
+		return mana;
+	}
+
+}

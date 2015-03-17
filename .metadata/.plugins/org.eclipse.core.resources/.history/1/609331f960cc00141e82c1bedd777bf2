@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Lista de Cartas</title>
+	<h3>
+		<h:outputText value="Meus Cards MTG"
+			style="font-size: 35px; font-weight: bold; font-family: Arial; color: #b0b0b0 ">
+		</h:outputText>
+	</h3>
+<hr />
+</h:head>
+
+<h:body>
+
+	<h:form>
+		<p:growl id="messages" />
+
+		<p:menubar autoDisplay="true" style="height:45px; font-size:17px">
+			<p:submenu label="Pesquisa de Cartas" icon="ui-icon-search">
+				<p:submenu label="Exibir por Cartas" icon="ui-icon-document" />
+				<p:submenu label="Exibir por Decks" icon="ui-icon-copy" url="#" />
+			</p:submenu>
+
+	<f:facet name="options">
+		<p:inputText style="margin-right:10px" placeholder="Search" />
+		<p:commandButton type="button" value="Incluir uma carta" icon="ui-icon-plusthick" />
+		
+	</f:facet>
+
+
+		</p:menubar>
+
+	</h:form>
+
+</h:body>
+
+
+</html>

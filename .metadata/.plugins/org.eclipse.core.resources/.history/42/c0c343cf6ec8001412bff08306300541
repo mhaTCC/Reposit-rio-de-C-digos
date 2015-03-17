@@ -1,0 +1,7 @@
+package model;
+
+public class Cor {
+	
+	private char mana;
+
+}

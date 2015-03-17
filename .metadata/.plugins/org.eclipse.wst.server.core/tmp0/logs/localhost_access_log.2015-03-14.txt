@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Mar/2015:01:23:19 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:23:50 -0300] "GET /ProjetoMeuMTG/default.xhtml HTTP/1.1" 200 409
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:29:07 -0300] "GET /ProjetoMeuMTG/default.xhtml HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:29:39 -0300] "GET /ProjetoMeuMTG/default.xhtml HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:30:03 -0300] "GET /ProjetoMeuMTG/default.xhtml HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:30:15 -0300] "GET /ProjetoMeuMTG/default.xhtml HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [14/Mar/2015:01:30:15 -0300] "GET /favicon.ico HTTP/1.1" 404 973

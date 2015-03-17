@@ -1,0 +1,27 @@
+package view;
+
+import java.util.ArrayList;
+
+
+import model.Carta;
+
+public class ListaDeCarta {
+
+	private ArrayList<String> carta;
+	ArrayList<Carta> cartas = new ArrayList<Carta>();
+	
+	
+	
+	
+	
+	
+	
+	
+	public ArrayList<String> getCarta() {
+		return carta;
+	}
+	public void setCarta(ArrayList<String> carta) {
+		this.carta = carta;
+	}
+
+}

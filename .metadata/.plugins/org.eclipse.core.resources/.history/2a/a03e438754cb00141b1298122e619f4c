@@ -1,0 +1,24 @@
+package model;
+
+public class Cor {
+	
+	private int incolor;
+	private int branco;
+	private int verde;
+	private int vermelho;
+	private int preto;
+	private int azul;
+	
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+	
+			
+		
+	
+}

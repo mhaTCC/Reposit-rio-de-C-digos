@@ -1,0 +1,49 @@
+package model;
+
+public class Cor {
+	private static char branco = 'W';
+	private static char verde = 'G';
+	private static char vermelho = 'R';
+	private static char preto = 'K';
+	private static char azul = 'B';
+	private char incolor; 
+
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+	public static char getBranco() {
+		return branco;
+	}
+	public static char getVerde() {
+		return verde;
+	}
+	public static char getVermelho() {
+		return vermelho;
+	}
+	public static char getPreto() {
+		return preto;
+	}
+	public static char getAzul() {
+		return azul;
+	}
+
+	
+	
+	
+	/*
+	 * SET  
+	 * 	public static void setCusto(char branco, char verde, char vermelho,
+			char preto, char azul) {
+		Cor.branco = branco;
+		Cor.verde = verde;
+		Cor.vermelho = vermelho;
+		Cor.preto = preto;
+		Cor.azul = azul;
+	}*/
+	
+}

@@ -1,0 +1,28 @@
+package model;
+
+public class Carta {
+	private String nome;
+	private Cor custo;
+	private LinhaDeTipo tipo;
+	private String raridade;
+	private String estado;
+	private String descEfeito;
+	private double valor;
+	private String imagem;
+	private String edicao;
+	private Deck deckAssociado;
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	
+	
+		
+	
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+
+	
+}

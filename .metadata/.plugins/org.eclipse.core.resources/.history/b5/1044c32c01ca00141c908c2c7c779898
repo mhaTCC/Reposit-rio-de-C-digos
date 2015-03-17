@@ -1,0 +1,13 @@
+package model;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class OlaMundoBean {
+
+	public String getHorario() {
+		SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss");
+		return "Atualizado em: " + sdf.format(new Date());
+	}
+
+}

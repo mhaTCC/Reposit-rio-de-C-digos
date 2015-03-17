@@ -1,0 +1,26 @@
+package model;
+
+public class Cor {
+
+	private char mana;
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+	
+	
+	
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+
+	public char getMana() {
+		return mana;
+	}
+
+	public void setMana(char mana) {
+		this.mana = mana;
+	}
+
+}

@@ -1,0 +1,16 @@
+package view;
+
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
+
+import org.primefaces.event.ToggleEvent;
+
+public class FieldSetView {
+
+	public void handleToggle(ToggleEvent event) {
+		FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,
+				"Toggled", "Visibility: HIDDEN" + event.getVisibility());
+		FacesContext.getCurrentInstance().addMessage(null, msg);
+	}
+
+}

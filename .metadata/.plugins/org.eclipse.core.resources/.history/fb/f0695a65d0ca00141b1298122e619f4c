@@ -1,0 +1,20 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Carta;
+
+public class ListaDeCarta {
+	
+
+	List<Carta> c = new ArrayList<Carta>();
+	
+	public ListaDeCarta() {
+		c.add(0, "carta");
+	}
+	
+		
+	
+
+}

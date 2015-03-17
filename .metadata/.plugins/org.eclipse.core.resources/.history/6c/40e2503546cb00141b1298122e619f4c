@@ -1,0 +1,23 @@
+package model;
+
+public class Cor {
+	private static char branco = 'W';
+	private static char verde = 'G';
+	private static char vermelho = 'R';
+	private static char preto = 'K';
+	private static char azul = 'B';
+		
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+	
+	
+	
+	
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+
+}

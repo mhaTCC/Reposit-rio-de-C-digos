@@ -1,0 +1,62 @@
+package model;
+
+public class Cor {
+	
+	private int incolor;
+	private int branco;
+	private int verde;
+	private int vermelho;
+	private int preto;
+	private int azul;
+	
+	
+	carta   heraldo.cores[0]=2
+			heraldo.cores[1]=1
+			heraldo.cores[2]=0
+			
+			for(i++){
+				if(heraldo.cores[i]==null){
+					
+				}else{
+					heraldo.cores[i]
+				}
+			}
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+	public static char getBranco() {
+		return branco;
+	}
+	public static char getVerde() {
+		return verde;
+	}
+	public static char getVermelho() {
+		return vermelho;
+	}
+	public static char getPreto() {
+		return preto;
+	}
+	public static char getAzul() {
+		return azul;
+	}
+
+	
+	
+	
+	/*
+	 * SET  
+	 * 	public static void setCusto(char branco, char verde, char vermelho,
+			char preto, char azul) {
+		Cor.branco = branco;
+		Cor.verde = verde;
+		Cor.vermelho = vermelho;
+		Cor.preto = preto;
+		Cor.azul = azul;
+	}*/
+	
+}

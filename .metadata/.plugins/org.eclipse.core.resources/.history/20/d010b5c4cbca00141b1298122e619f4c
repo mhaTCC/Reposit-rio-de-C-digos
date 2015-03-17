@@ -1,0 +1,10 @@
+package view;
+
+import java.util.List;
+
+public class ListaDeCarta {
+	
+	private List<String> cartas;
+	
+
+}

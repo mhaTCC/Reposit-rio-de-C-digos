@@ -1,0 +1,10 @@
+package model;
+
+public class LinhaDeTipo {
+	
+	private String tipoBasico;
+	private String superTipo;
+	private String tipo;
+	private String subTipo;
+
+}

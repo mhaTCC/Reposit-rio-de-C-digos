@@ -1,0 +1,110 @@
+package model;
+
+public class Carta {
+	private String nome;
+	private Cor custo;
+	private LinhaDeTipo tipo;
+	private String raridade;
+	private String estado;
+	private String descEfeito;
+	private double valor;
+	private String imagem;
+	private String edicao;
+	private Deck deckAssociado;
+
+	// INICIO DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	
+	
+	
+	
+	
+	
+	
+	// FIM DO BLOCO
+	// PRINCIPAL_________________________________________________________
+
+	// GET E SETTERS
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Cor getCusto() {
+		return custo;
+	}
+
+	public void setCusto(Cor custo) {
+		this.custo = custo;
+	}
+
+	public LinhaDeTipo getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(LinhaDeTipo tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getRaridade() {
+		return raridade;
+	}
+
+	public void setRaridade(String raridade) {
+		this.raridade = raridade;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+
+	public String getDescEfeito() {
+		return descEfeito;
+	}
+
+	public void setDescEfeito(String descEfeito) {
+		this.descEfeito = descEfeito;
+	}
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
+	public String getImagem() {
+		return imagem;
+	}
+
+	public void setImagem(String imagem) {
+		this.imagem = imagem;
+	}
+
+	public String getEdicao() {
+		return edicao;
+	}
+
+	public void setEdicao(String edicao) {
+		this.edicao = edicao;
+	}
+
+	public Deck getDeckAssociado() {
+		return deckAssociado;
+	}
+
+	public void setDeckAssociado(Deck deckAssociado) {
+		this.deckAssociado = deckAssociado;
+	}
+
+}
